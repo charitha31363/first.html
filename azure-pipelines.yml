@@ -14,5 +14,5 @@ steps:
   inputs:
     rootFolderOrFile: '$(build.sourcesDirectory)'
     includeRootFolder: false
-- task: PublishBuildArtifacts@1
+- task: PublishBuildArtifacts@first.html
 - script: python -mhtmllib first.html
